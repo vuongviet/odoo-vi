@@ -55,7 +55,7 @@ msgstr "định hướng trung tâm làm việc"
 #: field:mrp.routing.workcenter,cycle_nbr:0
 #: field:report.workcenter.load,cycle:0
 msgid "Number of Cycles"
-msgstr "số vòng của sản phẩm sản xuất"
+msgstr "Số chu kì của sản phẩm sản xuất"
 
 #. module: mrp
 #: model:process.transition,note:mrp.process_transition_minimumstockprocure0
@@ -73,7 +73,7 @@ msgstr ""
 #. module: mrp
 #: view:mrp.production:0
 msgid "Scrap Products"
-msgstr ""
+msgstr "Phụ phẩm"
 
 #. module: mrp
 #: view:mrp.workcenter:0
@@ -84,24 +84,24 @@ msgstr ""
 #: model:ir.actions.act_window,name:mrp.mrp_routing_action
 #: model:ir.ui.menu,name:mrp.menu_mrp_routing_action
 msgid "Routings"
-msgstr ""
+msgstr "Luồng công việc"
 
 #. module: mrp
 #: view:mrp.bom:0
 msgid "Search Bill Of Material"
-msgstr ""
+msgstr "Tìm bảng kê vật liệu"
 
 #. module: mrp
 #: model:process.node,note:mrp.process_node_stockproduct1
 msgid "For stockable products and consumables"
-msgstr ""
+msgstr "Cho sản phẩm lưu kho và bán thành phẩm"
 
 #. module: mrp
 #: help:mrp.bom,message_unread:0
 #: help:mrp.production,message_unread:0
 #: help:mrp.production.workcenter.line,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr ""
+msgstr "Nếu tít vào thông điệp mới yêu cầu bạn để ý"
 
 #. module: mrp
 #: help:mrp.routing.workcenter,cycle_nbr:0
@@ -113,24 +113,24 @@ msgstr ""
 #. module: mrp
 #: view:product.product:0
 msgid "False"
-msgstr ""
+msgstr "Lỗi"
 
 #. module: mrp
 #: view:mrp.bom:0
 #: field:mrp.bom,code:0
 #: field:mrp.production,name:0
 msgid "Reference"
-msgstr ""
+msgstr "Tham chiếu"
 
 #. module: mrp
 #: view:mrp.production:0
 msgid "Finished Products"
-msgstr ""
+msgstr "Thành phẩm"
 
 #. module: mrp
 #: view:mrp.production:0
 msgid "Manufacturing Orders which are currently in production."
-msgstr ""
+msgstr "Các Đơn hàng đang trên chuyền sản xuất"
 
 #. module: mrp
 #: help:mrp.bom,message_summary:0
@@ -145,91 +145,91 @@ msgstr ""
 #: model:process.transition,name:mrp.process_transition_servicerfq0
 #: model:process.transition,name:mrp.process_transition_stockrfq0
 msgid "To Buy"
-msgstr ""
+msgstr "Mua"
 
 #. module: mrp
 #: model:process.transition,note:mrp.process_transition_purchaseprocure0
 msgid "The system launches automatically a RFQ to the preferred supplier."
-msgstr ""
+msgstr "Hệ thống kích hoạt tự động yêu cầu mua hàng đến các nhà cung cấp"
 
 #. module: mrp
 #: view:mrp.production:0
 msgid "Products to Finish"
-msgstr ""
+msgstr "Sản phẩm để hoàn chỉnh"
 
 #. module: mrp
 #: selection:mrp.bom,method:0
 msgid "Set / Pack"
-msgstr ""
+msgstr "Bộ"
 
 #. module: mrp
 #: field:mrp.workcenter,costs_hour:0
 msgid "Cost per hour"
-msgstr ""
+msgstr "Chi phí trong 1 giờ"
 
 #. module: mrp
 #: model:process.transition,note:mrp.process_transition_stockproduction0
 msgid ""
 "In case the Supply method of the product is Produce, the system creates a "
 "production order."
-msgstr ""
+msgstr "Trong trường hợp phương pháp cung ứng sản phẩm là sản xuất thì hệ thống sẽ tạo một lệnh sản xuất"
 
 #. module: mrp
 #: field:change.production.qty,product_qty:0
 msgid "Product Qty"
-msgstr ""
+msgstr "Số lượng sản phẩm"
 
 #. module: mrp
 #: view:mrp.production:0
 msgid "Unit of Measure"
-msgstr ""
+msgstr "Đơn vị đo"
 
 #. module: mrp
 #: model:process.node,note:mrp.process_node_purchaseprocure0
 msgid "For purchased material"
-msgstr ""
+msgstr "Để mua nguyên vật liệu"
 
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_mrp_production_order_action
 msgid "Order Planning"
-msgstr ""
+msgstr "Kế hoạch đơn hàng"
 
 #. module: mrp
 #: field:mrp.config.settings,module_mrp_operations:0
 msgid "Allow detailed planning of work order"
-msgstr ""
+msgstr "Cho phép lập kế hoạch chi tiết của bước công việc"
 
 #. module: mrp
 #: code:addons/mrp/mrp.py:633
 #, python-format
 msgid "Cannot cancel manufacturing order!"
-msgstr ""
+msgstr "Không thể hủy lệnh sản xuất"
 
 #. module: mrp
 #: field:mrp.workcenter,costs_cycle_account_id:0
 msgid "Cycle Account"
-msgstr ""
+msgstr "Tài khoản chu kỳ sản xuất"
 
 #. module: mrp
 #: code:addons/mrp/report/price.py:130
 #, python-format
 msgid "Work Cost"
-msgstr ""
+msgstr "Chi phí công việc"
 
 #. module: mrp
 #: model:process.transition,name:mrp.process_transition_procureserviceproduct0
 msgid "Procurement of services"
-msgstr ""
+msgstr "Đầu ra của dịch vụ"
 
 #. module: mrp
 #: view:mrp.workcenter:0
 msgid "Capacity Information"
-msgstr ""
+msgstr "Thông tinh về nămg lực sản xuất"
 
 #. module: mrp
 #: field:mrp.routing,workcenter_lines:0
 msgid "Work Centers"
-msgstr ""
+msgstr "Trung tâm làm việc"
 
 #. module: mrp
 #: model:ir.actions.act_window,help:mrp.mrp_routing_action
@@ -272,7 +272,7 @@ msgstr ""
 msgid ""
 "The selection of the right Bill of Material to use will depend on the "
 "properties specified on the sales order and the Bill of Material."
-msgstr ""
+msgstr "Chọn đúng bảng kê vật liệu phụ thuộc vào đặc tính được chỉ ra trong đơn hàng mua và bảng kê vật liệu"
 
 #. module: mrp
 #: view:mrp.bom:0
